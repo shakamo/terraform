@@ -1,0 +1,20 @@
+{
+  "name": "Terraform",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.encoding": "utf8",
+        "editor.formatOnSave": true
+      },
+      "extensions": [
+        "HashiCorp.terraform",
+        "4ops.terraform",
+        "Infracost.infracost"
+      ],
+    }
+  },
+  "mounts": [
+    "source=${localEnv:HOME}/.aws,target=/root/.aws,type=bind,consistency=cached"
+  ],
+}

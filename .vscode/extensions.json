@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "HashiCorp.terraform",
+        "4ops.terraform",
+        "Infracost.infracost"
+    ]
+}
