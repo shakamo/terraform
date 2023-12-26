@@ -1,7 +1,7 @@
 ### Git Clone
 
 ```
-git clone https://github.com/shakamo/terraform_example.git
+git clone https://github.com/shakamo/terraform.git
 ```
 
 ### VS Code Dev Container とは
