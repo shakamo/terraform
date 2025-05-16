@@ -1,3 +1,6 @@
+### Prodしか利用していない
+
+
 ### Git Clone
 
 ```
@@ -52,13 +55,13 @@ terraform-docs markdown modules/s3 --output-file doc.md
 ### Terraform 静的分析ツール
 
 ```
-checkov --directory ./example/
+checkov --directory ./
 ```
 
 ### Terraform Lint
 
 ```
-tflint --recursive
+tflint --recursive --fix
 ```
 
 ### 基本

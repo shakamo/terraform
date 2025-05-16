@@ -14,3 +14,6 @@ module "vpc" {
     Environment = "prod"
   }
 }
+data "aws_vpc" "selected" {
+  id = module.vpc.vpc_id
+}
